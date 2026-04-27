@@ -93,6 +93,7 @@ scripts/
 
 visuals/
   global/
+```
 
 ## Data source and attribution
 
