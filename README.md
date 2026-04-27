@@ -93,3 +93,23 @@ scripts/
 
 visuals/
   global/
+
+## Data source and attribution
+
+This project is based on OECD-derived data related to treaty-based withholding tax rates.
+
+Main source:
+
+OECD (2025), Treaty-based withholding tax rates, OECD Data Explorer / OECD Corporate Income Tax Rates Database.
+
+The project is independent and is not affiliated with, endorsed by, or approved by the OECD.
+
+For details, see `DATA_NOTICE.md`.
+
+## Disclaimer
+
+This repository is a portfolio case study in data cleaning, relational modelling, network analysis and visual communication.
+
+The analysis describes the structure of treaty-based relationships between jurisdictions. It does not evaluate the legal quality, tax convenience, economic effectiveness or practical impact of individual treaties.
+
+Nothing in this repository should be interpreted as legal, tax, financial or investment advice.

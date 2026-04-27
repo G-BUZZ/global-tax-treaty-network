@@ -1,2 +1,6 @@
 docs/review_pairs.csv.save
 report_upload/
+
+# Python virtual environment
+.venv/
+venv/
