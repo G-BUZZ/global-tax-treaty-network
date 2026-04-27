@@ -1,0 +1,26 @@
+source_country,target_country,source_iso3,target_iso3,treaty_in_force,signature_date,entry_into_force_date,data_source,mli_relevant,notes
+Italy,France,ITA,FRA,yes,,,finanze.gov.it - France treaty documentation,unknown,Initial manual entry
+Italy,Ireland,ITA,IRL,yes,,,finanze.gov.it - Ireland treaty documentation,unknown,Initial manual entry
+Italy,Switzerland,ITA,CHE,yes,,,finanze.gov.it - Switzerland treaty documentation,unknown,Initial manual entry
+Italy,Austria,ITA,AUT,yes,,,finanze.gov.it - Austria treaty documentation,unknown,Initial manual entry
+Italy,Spain,ITA,ESP,yes,,,finanze.gov.it - Spain treaty documentation,unknown,Initial manual entry
+Italy,Germany,ITA,DEU,yes,,,finanze.gov.it - Germany treaty documentation,unknown,Initial manual entry
+Italy,United Kingdom,ITA,GBR,yes,,,finanze.gov.it - UK treaty documentation,unknown,Initial manual entry
+Italy,United States,ITA,USA,yes,,,finanze.gov.it - US treaty documentation,unknown,Initial manual entry
+Italy,Japan,ITA,JPN,yes,,,finanze.gov.it - Japan treaty documentation,unknown,Initial manual entry
+Italy,Singapore,ITA,SGP,yes,,,finanze.gov.it - Singapore treaty documentation,unknown,Initial manual entry
+Italy,South Africa,ITA,ZAF,yes,,,finanze.gov.it - South Africa treaty documentation,unknown,Initial manual entry
+Italy,Chile,ITA,CHL,yes,,,finanze.gov.it - Chile treaty/protocol documentation,unknown,Initial manual entry
+Italy,Mexico,ITA,MEX,yes,,,finanze.gov.it - Mexico treaty/protocol documentation,unknown,Initial manual entry
+Italy,Netherlands,ITA,NLD,yes,,,official-source-workflow,unknown,Intake test batch
+Italy,Portugal,ITA,PRT,yes,,,official-source-workflow,unknown,Intake test batch
+France,Spain,FRA,ESP,yes,,,Official public treaty source,unknown,Manual review batch 1
+Spain,Germany,ESP,DEU,yes,,,Official public treaty source,unknown,Manual review batch 1
+Spain,United Kingdom,ESP,GBR,yes,,,Official public treaty source,unknown,Manual review batch 1
+Spain,Portugal,ESP,PRT,yes,,,Official public treaty source,unknown,Manual review batch 1
+Germany,Netherlands,DEU,NLD,yes,,,Official public treaty source,unknown,Manual review batch 1
+France,Switzerland,FRA,CHE,yes,,,Official public treaty source (France tax site),unknown,Manual review batch 2
+France,United Kingdom,FRA,GBR,yes,,,Official public treaty source (France/UK tax site),unknown,Manual review batch 2
+France,Netherlands,FRA,NLD,yes,,,Official public treaty source (France tax site),unknown,Manual review batch 2
+France,Portugal,FRA,PRT,yes,,,Official public treaty source (France tax site),unknown,Manual review batch 2
+Switzerland,Germany,CHE,DEU,yes,,,Official public treaty source (Swiss tax site),unknown,Manual review batch 2

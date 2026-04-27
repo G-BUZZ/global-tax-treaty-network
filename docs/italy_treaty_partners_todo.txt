@@ -1,0 +1,10 @@
+Italy treaty partners - manual collection checklist
+
+For each partner country, collect:
+- Country name
+- ISO3
+- Treaty in force? yes/no
+- Signature date
+- Entry into force date
+- Source URL or source description
+- Notes

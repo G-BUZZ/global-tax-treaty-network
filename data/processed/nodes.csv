@@ -1,0 +1,17 @@
+country_name,iso3,region,oecd_member,source_notes
+Italy,ITA,Europe,yes,Seed node based on official Italian treaty page
+France,FRA,Europe,yes,Added from official Italian treaty documentation
+Ireland,IRL,Europe,yes,Added from official Italian treaty documentation
+Switzerland,CHE,Europe,no,Added from official Italian treaty documentation
+Austria,AUT,Europe,yes,Added from official Italian treaty documentation
+Spain,ESP,Europe,yes,Added from official Italian treaty documentation
+Germany,DEU,Europe,unknown,Added from official Italian treaty/protocol documentation
+United Kingdom,GBR,Europe,unknown,Added from official Italian treaty/protocol documentation
+United States,USA,Americas,unknown,Added from official Italian treaty/protocol documentation
+Japan,JPN,Asia,unknown,Added from official Italian treaty/protocol documentation
+Singapore,SGP,Asia,unknown,Added from official Italian treaty/protocol documentation
+South Africa,ZAF,Africa,unknown,Added from official Italian treaty/protocol documentation
+Chile,CHL,Americas,unknown,Added from official Italian treaty/protocol documentation
+Mexico,MEX,Americas,unknown,Added from official Italian treaty/protocol documentation
+Netherlands,NLD,Europe,unknown,Intake test batch from official treaty source workflow
+Portugal,PRT,Europe,unknown,Intake test batch from official treaty source workflow
