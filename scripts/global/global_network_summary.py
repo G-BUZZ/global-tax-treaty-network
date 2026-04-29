@@ -1,6 +1,7 @@
 from pathlib import Path
-import pandas as pd
+
 import networkx as nx
+import pandas as pd
 
 NODES_PATH = Path("data/processed/global/nodes_global.csv")
 EDGES_PATH = Path("data/processed/global/edges_global_undirected.csv")
@@ -32,22 +33,26 @@ betweenness = nx.betweenness_centrality(G, normalized=True)
 closeness = nx.closeness_centrality(G)
 
 rows = []
+
 for node in G.nodes():
-    rows.append({
-        "iso3": node,
-        "country_name": G.nodes[node].get("country_name", node),
-        "degree": degree_dict[node],
-        "degree_centrality": degree_centrality[node],
-        "betweenness_centrality": betweenness[node],
-        "closeness_centrality": closeness[node],
-    })
+    rows.append(
+        {
+            "iso3": node,
+            "country_name": G.nodes[node].get("country_name", node),
+            "degree": degree_dict[node],
+            "degree_centrality": degree_centrality[node],
+            "betweenness_centrality": betweenness[node],
+            "closeness_centrality": closeness[node],
+        }
+    )
 
 df = pd.DataFrame(rows).sort_values(
     by=["degree", "betweenness_centrality", "closeness_centrality"],
-    ascending=False
+    ascending=False,
 )
 
 df.to_csv(OUT_PATH, index=False)
+
 print(f"Saved centrality file to: {OUT_PATH}")
 print("\n=== TOP 20 NODES ===")
 print(df.head(20).to_string(index=False))

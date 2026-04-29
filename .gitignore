@@ -24,3 +24,7 @@ docs/review_pairs.csv.save
 !/data/raw/oecd/
 !/data/raw/oecd/README.md
 !/data/raw/oecd/source_manifest.sha256
+
+# Python cache
+__pycache__/
+*.py[cod]

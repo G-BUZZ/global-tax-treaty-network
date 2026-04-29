@@ -1,4 +1,5 @@
 from pathlib import Path
+
 import pandas as pd
 
 RAW_DIR = Path("data/raw/oecd")
@@ -17,19 +18,26 @@ if path.suffix.lower() == ".csv":
     print("[INFO] Columns:")
     for c in df.columns:
         print("-", c)
+
     print("\n[INFO] First 10 rows:")
     print(df.head(10).to_string(index=False))
+
 else:
     print("[INFO] File type: Excel")
     xls = pd.ExcelFile(path)
+
     print("[INFO] Sheets:")
     for s in xls.sheet_names:
         print("-", s)
+
     first_sheet = xls.sheet_names[0]
     print(f"\n[INFO] Reading first sheet: {first_sheet}")
+
     df = pd.read_excel(path, sheet_name=first_sheet)
+
     print("[INFO] Columns:")
     for c in df.columns:
         print("-", c)
+
     print("\n[INFO] First 10 rows:")
     print(df.head(10).to_string(index=False))
