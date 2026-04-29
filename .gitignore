@@ -1,21 +1,26 @@
-docs/review_pairs.csv.save
-report_upload/
-
-# Python virtual environment
+# Python
+__pycache__/
+*.py[cod]
 .venv/
 venv/
+.env
+
+# Jupyter / editor noise
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local reports / temporary files
+report_upload/
+docs/review_pairs.csv.save
 
 # Raw source exports kept local only
-/data/raw/*
-!/data/raw/README.md
-!/data/raw/oecd/
-!/data/raw/oecd/README.md
-!/data/raw/oecd/source_manifest.sha256
-
-# Definitive rule: keep raw source exports local only
 /data/raw/**
 !/data/raw/
-!/data/raw/README.md
 !/data/raw/oecd/
 !/data/raw/oecd/README.md
 !/data/raw/oecd/source_manifest.sha256
