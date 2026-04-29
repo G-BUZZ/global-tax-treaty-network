@@ -11,3 +11,11 @@ venv/
 !/data/raw/oecd/
 !/data/raw/oecd/README.md
 !/data/raw/oecd/source_manifest.sha256
+
+# Definitive rule: keep raw source exports local only
+/data/raw/**
+!/data/raw/
+!/data/raw/README.md
+!/data/raw/oecd/
+!/data/raw/oecd/README.md
+!/data/raw/oecd/source_manifest.sha256
