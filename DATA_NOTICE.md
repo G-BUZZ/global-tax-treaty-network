@@ -17,3 +17,15 @@ The network describes the structure of treaty-based relationships between jurisd
 Nothing in this repository should be interpreted as legal, tax, financial or investment advice.
 
 Users should consult the official OECD source and the applicable OECD Terms and Conditions before reusing the original data.
+
+## Raw source export handling
+
+Full raw source exports are not redistributed in this public repository.
+
+The project keeps raw files locally under `data/raw/`, which is excluded from Git tracking. This choice preserves reproducibility while reducing unnecessary redistribution of complete third-party source exports.
+
+Public reproducibility is supported through source attribution, processing scripts, derived outputs and the checksum manifest stored at:
+
+`data/raw/oecd/source_manifest.sha256`
+
+The original source data remain subject to the applicable OECD terms and conditions.

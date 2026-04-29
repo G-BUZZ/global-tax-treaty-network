@@ -114,3 +114,9 @@ This repository is a portfolio case study in data cleaning, relational modelling
 The analysis describes the structure of treaty-based relationships between jurisdictions. It does not evaluate the legal quality, tax convenience, economic effectiveness or practical impact of individual treaties.
 
 Nothing in this repository should be interpreted as legal, tax, financial or investment advice.
+
+## License
+
+Code in this repository is released under the MIT License.
+
+Data are based on OECD-derived sources and remain subject to the applicable OECD terms and conditions. See `DATA_NOTICE.md`.

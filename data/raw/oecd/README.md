@@ -1,11 +1,11 @@
-# OECD raw data
+# OECD raw source exports
 
-This folder contains the raw OECD-derived export used for the portfolio analysis.
+The original OECD-derived export used for the build is kept locally and excluded from Git tracking.
 
-Source:
+Reason:
 
-OECD (2025), Treaty-based withholding tax rates, OECD Data Explorer / OECD Corporate Income Tax Rates Database.
+- the raw export may be useful for auditability and reproducibility;
+- the public portfolio should avoid redistributing complete third-party raw files;
+- derived data, code, outputs and documentation are sufficient for public review.
 
-The original data remain subject to the applicable OECD Terms and Conditions.
-
-This repository is independent and is not affiliated with, endorsed by, or approved by the OECD.
+Use `source_manifest.sha256` to verify that a local raw file matches the version used during the build.
